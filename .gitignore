@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+# only the main checkpoint is committed; the size-sweep ones are reproducible with train.py
+checkpoints/*
+!checkpoints/main_long.npz

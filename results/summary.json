@@ -1,0 +1,33 @@
+{
+  "gpt_val_bpc_aligned": 1.273102045059204,
+  "kn_val_bpc_aligned": 1.3393906857596747,
+  "kn_best_order": 10,
+  "n_scored_chars": 141760,
+  "gpt_better_fraction": 0.5212895033860045,
+  "params": 822784,
+  "best_step": 8700,
+  "vocab_size": 51,
+  "train_chars": 1290516,
+  "val_chars": 141789,
+  "kn_unique_ngrams_top_order": 514407,
+  "ensemble_lambdas": [
+    0.65,
+    0.6
+  ],
+  "ensemble_lambda": 0.625,
+  "ensemble_val_bpc": 1.2096384763717651,
+  "kn_minus_gpt_bpc": 0.06628873034919758,
+  "kn_minus_gpt_ci95": [
+    0.055505372914434,
+    0.07581894188364594
+  ],
+  "kn_minus_gpt_docs_won": 0.8428571428571429,
+  "gpt_minus_ensemble_bpc": 0.06346350194868505,
+  "gpt_minus_ensemble_ci95": [
+    0.05852956561710432,
+    0.0689693173489274
+  ],
+  "gpt_minus_ensemble_docs_won": 0.9928571428571429,
+  "n_val_abstracts": 140,
+  "runtime_seconds": 516.0105104446411
+}
